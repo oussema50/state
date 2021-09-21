@@ -1,0 +1,46 @@
+
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+}
+.person-profile img
+{
+    width:300px;
+    object-fit: cover;
+}
+.toggle-btn
+{
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    width: 100px;
+    height: 31px;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.skills-list li
+{
+  position: relative;
+  width: 400px;
+  height: 20px;
+  background: rgb(210 210 210);
+  color: #FFF;
+  margin-bottom: 10px;
+  text-align: center;
+  z-index: 1;
+}
+.skills-list li span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index:-1;
+}
